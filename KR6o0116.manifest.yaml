@@ -1,0 +1,85 @@
+canonical_identifier: bkk:krp/KR6o0116/v1
+canonical_location: https://kanripo.org/bkk/KR6o0116/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 起信論續疏
+  identifiers:
+    alt_id:
+    - X45n0764
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X45/X45n0764.xml
+    old_id: X45n0764
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6o0116_000.yaml, hash: 'sha256:5b60cada76a33fd50137765128036fa5b9a331efe60ca8b10adb9eeb93badb25'}
+  - {seq: 1, filename: KR6o0116_001.yaml, hash: 'sha256:ff39c721e19a18032f14b196252a6ca63e1be486f48779f432e681468d449baf'}
+  - {seq: 2, filename: KR6o0116_002.yaml, hash: 'sha256:f9ea47306a1fc9286f79c81793d47e50c2fd07042fb691f05b84cdc888389897'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6o0116_000.markers.yaml, hash: 'sha256:be6217f0b5b7f98360926bbd219d9c97b9cffa0b0ffd52a88655ea84495617e1'}
+  - {seq: 1, role: markers, filename: assets/KR6o0116_001.markers.yaml, hash: 'sha256:2e93aca99888a817e821adbc09fcc35e0381b22f4132b4802b15a5eb7ef752b8'}
+  - {seq: 2, role: markers, filename: assets/KR6o0116_002.markers.yaml, hash: 'sha256:228d393f23ccd5143a4e1e8e46b7e9ef807fb0b4c0218610d2c932524bcdb64b'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6o0116_X_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: No. 764-A 大乘起信論續疏自序
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6o0116_X_000-mulu-2
+    span:
+    - front
+    - 653
+    - 653
+  label: No. 764-B 大乘起信論主馬鳴菩薩略傳
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6o0116_X_000-mulu-3
+    span:
+    - front
+    - 1056
+    - 1056
+  label: 大乘起信論續疏
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6o0116_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 23637
+  label: 大乘起信論續疏卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6o0116_X_002-juan-start
+    span:
+    - body
+    - 0
+    - 30444
+  label: 大乘起信論續疏卷下
+  type: juan
+  level: 1
+hash: sha256:ffec8befd1f6faa8824e36fa1e372c8356cf04633ba8c326c2d14491718c9633
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

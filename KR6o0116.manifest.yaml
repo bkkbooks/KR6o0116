@@ -21,11 +21,11 @@ editions:
 - short: X
 assets:
   parts:
-  - {seq: 0, filename: KR6o0116_000.yaml, hash: 'sha256:e11cbcf442194e4d33dd0f77a3bf110151f7a1cf3709249a5dc3ee9eb3df776e'}
+  - {seq: 0, filename: KR6o0116_000.yaml, hash: 'sha256:596cc105156790b2b1fc3c844299f4cc65634ed6547602f002593f9c478e6b35'}
   - {seq: 1, filename: KR6o0116_001.yaml, hash: 'sha256:108ca30bd2dfcdbe109330c0999820ae8fdea113153d04ba0e64b7f2781a4c4f'}
   - {seq: 2, filename: KR6o0116_002.yaml, hash: 'sha256:54b7fc7de7850ad6e90b9e2ee68ff10828d4e3e822d3a494f8a1a471caa43af2'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6o0116_000.markers.yaml, hash: 'sha256:2ef33d87f6836f4dcbdf02ca2fd70a9d6b0b5c00ba2f4e07c91ab8dadd6d94e0'}
+  - {seq: 0, role: markers, filename: assets/KR6o0116_000.markers.yaml, hash: 'sha256:305949a3bbdc79f28b911bac74d7b3ffaa1fe9b47b18a23c9dff2b0b064e6a12'}
   - {seq: 1, role: markers, filename: assets/KR6o0116_001.markers.yaml, hash: 'sha256:1e03aebc11fc868c3d6fc82286abcbdb76d60f01b9eb718a9a6103e29a00f45f'}
   - {seq: 2, role: markers, filename: assets/KR6o0116_002.markers.yaml, hash: 'sha256:52468ba810e855a85e3a89e1a64773ebe1bcf4901bd66d30c5c42d720e15c57e'}
 table_of_contents:
@@ -33,7 +33,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6o0116_X_000-mulu-1
     span:
-    - front
+    - body
     - 0
     - 0
   label: No. 764-A 大乘起信論續疏自序
@@ -43,7 +43,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6o0116_X_000-mulu-2
     span:
-    - front
+    - body
     - 653
     - 653
   label: No. 764-B 大乘起信論主馬鳴菩薩略傳
@@ -53,7 +53,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6o0116_X_000-mulu-3
     span:
-    - front
+    - body
     - 1056
     - 1056
   label: 大乘起信論續疏
@@ -79,7 +79,7 @@ table_of_contents:
   label: 大乘起信論續疏卷下
   type: juan
   level: 1
-hash: sha256:9e27d51e65741d99ca752edbac99df42079f40247267f5999ff98b305dfdadd1
+hash: sha256:f583a4bec60dd411509d8fb629278d81679fcdfa3388e4bcf03ce3b880b2b869
 mappings:
 - canonical_identifier: bkk:mapping/variant-fold-v1
   hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
